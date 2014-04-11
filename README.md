@@ -1,3 +1,7 @@
+## My Comment
+
+The goal here was to solve each kata in one line (except for the last two katas) sacrificing code readability in some cases. Test description below.
+
 ## Friday test!
 
 Here we're going to revisit the basics of Ruby. There are 41 questions - you don't have to do every single one (although if you can, that's great). You should be able to do at least 50% of them. They vary in level from quite easy to fairly hard. Work through them and check if they're correct by running the specs.
