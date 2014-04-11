@@ -265,7 +265,9 @@ def fizzbuzz_without_modulo
     end
   end
 end
+# uncomment to run
 # fizzbuzz_without_modulo
+
 # print the lyrics of the song 99 bottles of beer on the wall
 # http://www.99-bottles-of-beer.net/lyrics.html
 # make sure you use the singular when you have one bottle of
