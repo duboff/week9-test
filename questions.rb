@@ -274,8 +274,9 @@ end
 # (there's no RSpec test for this one)
 def ninety_nine_bottles_of_beer
   (1..99).to_a.reverse.each do |num|
-    puts "#{num} bottles of beer on the wall, #{num} bottles of beer."
-    puts "Take one down and pass it around, #{num-1} bottles of beer on the wall."
+    puts "#{num} bottle#{'s' if num != 1} of beer on the wall, #{num} bottle#{'s' if num != 1} of beer."
+    num == 1 ? k = 'no more' : k = num - 1
+    puts "Take one down and pass it around, #{k} bottle#{'s' if num != 2} of beer on the wall."
   end
   puts "No more bottles of beer on the wall, no more bottles of beer. "
   puts"Go to the store and buy some more, 99 bottles of beer on the wall."
